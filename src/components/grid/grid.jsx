@@ -11,11 +11,6 @@ export default function DisplayGrid() {
   const [users] = useState(ROWDATA);
 
   const gridOptions = {
-    defaultColDef: {
-      sortable: true,
-      editable: true,
-      filter: true,
-    },
     columnDefs: [
       {
         field: "name",
