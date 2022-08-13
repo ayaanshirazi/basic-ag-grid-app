@@ -13,7 +13,7 @@ export default function DisplayGrid() {
   const gridOptions = {
     defaultColDef: {
       sortable: true,
-      editable: false,
+      editable: true,
       filter: true,
     },
     columnDefs: [
