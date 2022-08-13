@@ -1,9 +1,9 @@
-import React, { useState, useRef } from "react";
-import { AgGridReact } from "ag-grid-react";
-import ROWDATA from "../data/data";
-import "ag-grid-community/styles/ag-grid.css";
-import "ag-grid-community/styles/ag-theme-alpine.css";
-import "./grid.css";
+import React, { useState, useRef } from 'react';
+import { AgGridReact } from 'ag-grid-react';
+import ROWDATA from '../data/data';
+import 'ag-grid-community/styles/ag-grid.css';
+import 'ag-grid-community/styles/ag-theme-alpine.css';
+import './grid.css';
 
 export default function DisplayGrid() {
   const gridRef = useRef();
@@ -11,21 +11,26 @@ export default function DisplayGrid() {
   const [users] = useState(ROWDATA);
 
   const gridOptions = {
+    defaultColDef: {
+      sortable: true,
+      editable: false,
+      filter: true,
+    },
     columnDefs: [
       {
-        field: "name",
+        field: 'name',
       },
       {
-        field: "username",
+        field: 'username',
       },
       {
-        field: "email",
+        field: 'email',
       },
       {
-        field: "phone",
+        field: 'phone',
       },
       {
-        field: "website",
+        field: 'website',
       },
     ],
   };
