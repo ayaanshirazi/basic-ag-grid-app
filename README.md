@@ -1,6 +1,6 @@
 # Basic Ag Grid App
 
-This app is a demo app that renders a simple datasaet uisng AG Grid. It is also used in this repo: https://github.com/feobaby/react-hook-form-ag-grid
+This app is a demo app that renders a simple dataset using AG Grid. It is also used in this repo: https://github.com/feobaby/react-hook-form-ag-grid
 
 ## Getting Started
 
