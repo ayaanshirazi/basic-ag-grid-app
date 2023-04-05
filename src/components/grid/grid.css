@@ -1,8 +1,11 @@
 body {
-    background-color: antiquewhite;
+   /*  background-color: antiquewhite; */
 }
 .grid {
     margin: 0 auto;
+}
+#title{
+    background-color: #1e1c1d;  
 }
 .header {
     text-align: center;
